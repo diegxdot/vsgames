@@ -8,7 +8,7 @@ const juegos = [
     imageSrc:
       "https://imgs.search.brave.com/LNNh_9mulGObqUCQJY-HzuMP5jCLLOlDvOsUtjg-1k4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFvQXczcnRtSkwu/X0FDLl9TUjE4MCwy/MzAuanBn",
     imageAlt: "Caratula de juego",
-    price: "300MXN",
+    price: "300 MXN",
     color: "Región: México",
   },
   {
@@ -18,7 +18,7 @@ const juegos = [
     imageSrc:
       "https://imgs.search.brave.com/2eVK4pOiuZzTr5yIXiYeunOWva0dubiHy2M3CQqBMq8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxS0o4UmdGM0dM/LmpwZw",
     imageAlt: "Caratula de juego",
-    price: "300MXN",
+    price: "300 MXN",
     color: "Región: México",
   },
   {
@@ -28,7 +28,7 @@ const juegos = [
     imageSrc:
       "https://imgs.search.brave.com/fssMj5IqfqjkpVRpsEqVb7ONDTRp7RZGGWcwzrfWDwE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxTGRtZy1ZNFFM/LmpwZw",
     imageAlt: "Caratula de juego",
-    price: "300MXN",
+    price: "300 MXN",
     color: "Región: México",
   },
   {
@@ -38,7 +38,7 @@ const juegos = [
     imageSrc:
       "https://imgs.search.brave.com/azn7AobLiZ8SOlQfbywc8IGGDeCwg4qY7QuSc_wazM0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxamtnSEhNQmxM/LmpwZw",
     imageAlt: "Caratula de juego",
-    price: "300MXN",
+    price: "300 MXN",
     color: "Región: México",
   },
   // More products...
@@ -64,7 +64,7 @@ const Videogames = (props) => {
               </div>
               <div className="mt-4 flex justify-between">
                 <div>
-                  <h3 className="text-sm text-gray-900 dark:text-wh">
+                  <h3 className="text-sm text-gray-900 dark:text-wh mr-4">
                     <a href={juego.href}>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {juego.name}
@@ -74,7 +74,7 @@ const Videogames = (props) => {
                     {juego.color}
                   </p>
                 </div>
-                <p className="text-sm font-medium text-gray-900 dark:text-wh">
+                <p className="text-sm font-bold text-gray-900 dark:text-brand">
                   {juego.price}
                 </p>
               </div>

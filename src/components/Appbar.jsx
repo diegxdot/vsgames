@@ -117,7 +117,7 @@ const navigation = {
   ],
   pages: [
     { name: "Catalogo completo", href: "#" },
-    { name: "Acerca de nosotros", href: "#" },
+    { name: "Acerca de nosotros", href: "/About" },
   ],
 };
 
@@ -270,7 +270,7 @@ const Appbar = () => {
                 <div className="space-y-6 border-t border-bg px-4 py-6">
                   <div className="flow-root">
                     <a
-                      href="#"
+                      href="/Login"
                       className="-m-2 block p-2 font-medium text-gray-900 dark:text-wh"
                     >
                       Inicia Sesión
@@ -329,7 +329,7 @@ const Appbar = () => {
                   <img
                     className="h-8 w-auto"
                     src={logoVision}
-                    alt="visiongames"
+                    alt="arriba las chivas"
                   />
                 </a>
               </div>
@@ -461,7 +461,7 @@ const Appbar = () => {
               <div className="ml-auto flex items-center">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a
-                    href="#"
+                    href="/Login"
                     className="text-sm font-medium text-gray-700 dark:text-wh hover:text-gray-800 dark:hover:text-brand"
                   >
                     Inicia Sesión
